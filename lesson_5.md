@@ -67,7 +67,7 @@ customTheme : "presentation"
 
 ### Параллелизм и конкурентность
 
-<img src="/images/ozon_go_school_03_08_2021/parallel_and_concurency.png" />
+<img src="/images/lesson_5/parallel_and_concurency.png" />
 
 source: https://joearms.github.io/#Index
 
@@ -129,7 +129,7 @@ func main() {
 
 ### Горутины
 
-<img src="/images/ozon_go_school_03_08_2021/books.jpg" />
+<img src="/images/lesson_5/books.jpg" />
 
 ---
 
@@ -254,7 +254,7 @@ close(ch) // закрыть канал
 ```go
     ch := make(chan int)
 ```
-<img src="/images/ozon_go_school_03_08_2021/chan_1.png" />
+<img src="/images/lesson_5/chan_1.png" />
 
 ---
 
@@ -263,7 +263,7 @@ close(ch) // закрыть канал
 ```go
 ch := make(chan int, 4)
 ```
-<img src="/images/ozon_go_school_03_08_2021/chan_2.png" />
+<img src="/images/lesson_5/chan_2.png" />
 
 ---
 
@@ -284,49 +284,49 @@ ch := make(chan int, 4)
 
 ### Что будет, если читать из пустого канала?
 
-<img  src="/images/ozon_go_school_03_08_2021/chan_3.png" />
+<img  src="/images/lesson_5/chan_3.png" />
 
 ---
 
 ### Что будет, если читать из пустого канала?
 
-<img  src="/images/ozon_go_school_03_08_2021/chan_4.png" />
+<img  src="/images/lesson_5/chan_4.png" />
 
 ---
 
 ### Что будет, если писать в закрытый канал?
 
-<img  src="/images/ozon_go_school_03_08_2021/chan_5.png" />
+<img  src="/images/lesson_5/chan_5.png" />
 
 ---
 
 ### Что будет, если писать в закрытый канал?
 
-<img  src="/images/ozon_go_school_03_08_2021/chan_6.png" />
+<img  src="/images/lesson_5/chan_6.png" />
 
 ---
 
 ### Что будет, если читать из закрытого канала?
 
-<img  src="/images/ozon_go_school_03_08_2021/chan_7.png" />
+<img  src="/images/lesson_5/chan_7.png" />
 
 ---
 
 ### Что будет, если читать из закрытого канала?
 
-<img  src="/images/ozon_go_school_03_08_2021/chan_8.png" />
+<img  src="/images/lesson_5/chan_8.png" />
 
 ---
 
 ### Что будет, если читать из пустого закрытого канала?
 
-<img  src="/images/ozon_go_school_03_08_2021/chan_9.png" />
+<img  src="/images/lesson_5/chan_9.png" />
 
 ---
 
 ### Что будет, если читать из пустого закрытого канала?
 
-<img  src="/images/ozon_go_school_03_08_2021/chan_10.png" />
+<img  src="/images/lesson_5/chan_10.png" />
 
 ---
 
@@ -777,7 +777,7 @@ func main() {
 
 ### Дедлоки
 
-<img  src="/images/ozon_go_school_03_08_2021/deadlock.png" />
+<img  src="/images/lesson_5/deadlock.png" />
 
 ---
 
